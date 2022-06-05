@@ -7,6 +7,24 @@ A TypeScript-like language for WebAssembly.
 
 https://www.assemblyscript.org/
 
+## spin
+
+https://github.com/fermyon/spin
+
+An open source framework for building and running fast, secure, and composable cloud microservices with WebAssembly.
+
+## component-model
+
+https://github.com/WebAssembly/component-model
+
+Repository for design and specification of the Component Model.
+
+## proxy-wasm-rust-sdk
+https://github.com/proxy-wasm/proxy-wasm-rust-sdk
+
+WebAssembly for Proxies (Rust SDK) 
+
+
 ## wasmtime
 * https://github.com/bytecodealliance/wasmtime
 * https://wasmtime.dev/
@@ -56,6 +74,33 @@ wasi-parallel is a proposal to add a parallel for construct to WASI. It includes
 * an explainer, diving into the rationale for this specification
 * the proposed API in WITX form
 
+## proxy-wasm/spec
+
+https://github.com/proxy-wasm/spec
+
+WebAssembly for Proxies (ABI specification) 
+
+## wazero
+
+https://github.com/tetratelabs/wazero
+
+wazero is a WebAssembly 1.0 spec compliant runtime written in Go. It has zero dependencies, and doesn't rely on CGO. This means you can run applications in other languages and still keep cross compilation.
+
+Import wazero and extend your Go application with code written in any language!
+
+
+## awesome-wasm
+
+https://github.com/mbasso/awesome-wasm
+
+Curated list of awesome things regarding WebAssembly (wasm) ecosystem. 
+
+## awesome-wasm-langs
+
+https://github.com/appcypher/awesome-wasm-langs
+
+A curated list of languages that compile directly to or have their VMs in WebAssembly 
+
 
 ## Organizations and projects using WASM
 
@@ -71,3 +116,4 @@ wasi-parallel is a proposal to add a parallel for construct to WASI. It includes
 * [Scylla](https://www.scylladb.com/)
 * [Shopify](https://www.shopify.com/)
 * [SingleStore](https://www.singlestore.com/)
+* [Tetrate]
