@@ -1,11 +1,29 @@
 # wasm-notes
 Personal notes on the WebAssembly ecosystem
 
+WebAssembly's unique value proposition:
+
+* Language neutrality: avoid biasing the component model toward just one language or family of languages.
+* Embeddability: design components to be embedded in a diverse set of host execution environments, including browsers, servers, intermediaries, small devices and data-intensive systems.
+* Optimizability: maximize the static information available to Ahead-of-Time compilers to minimize the cost of instantiation and startup.
+* Formal semantics: define the component model within the same semantic framework as core wasm.
+* Web platform integration: ensure components can be natively supported in browsers by extending the existing WebAssembly integration points: the JS API, Web API and ESM-integration. Before native support is implemented, ensure components can be polyfilled in browsers via Ahead-of-Time compilation to currently-supported browser functionality.
+
+
+
 ## AssemblyScript
 
 A TypeScript-like language for WebAssembly.
 
 https://www.assemblyscript.org/
+
+
+## wit-bindgen
+
+https://github.com/bytecodealliance/wit-bindgen
+
+A language binding generator for WebAssembly interface types 
+
 
 ## spin
 
@@ -102,6 +120,14 @@ https://github.com/appcypher/awesome-wasm-langs
 A curated list of languages that compile directly to or have their VMs in WebAssembly 
 
 
+## wasmedge
+
+https://wasmedge.org/
+
+https://wasmedge.org/book/en/dev/rust.html
+
+WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices. 
+
 ## Organizations and projects using WASM
 
 * [bytecodealliance](https://bytecodealliance.org/) - a nonprofit organization dedicated to creating secure new software foundations, building on standards such as WebAssembly and WebAssembly System Interface (WASI).
@@ -109,11 +135,14 @@ A curated list of languages that compile directly to or have their VMs in WebAss
 * [Envoy](https://thenewstack.io/wasm-modules-and-envoy-extensibility-explained-part-1/)
 * ethereum
 * [Fermyon](https://www.fermyon.com/) -  building open source, WebAssembly-powered cloud tools, with the aim of simplifying and unlocking new technologies for all.
+* [ferrous systems](https://ferrous-systems.com/)
 * [Figma](https://www.figma.com/)
 * [Lapse](https://github.com/lapce/lapce)
+* [mozilla](https://www.mozilla.org/en-US/)
 * [Open Policy Agent](https://www.openpolicyagent.org/docs/latest/wasm/)
 * [RedPanda](https://redpanda.com/blog/wasm-architecture/)
 * [Scylla](https://www.scylladb.com/)
+* [SecondState](https://www.secondstate.io/)
 * [Shopify](https://www.shopify.com/)
 * [SingleStore](https://www.singlestore.com/)
 * [Tetrate]
