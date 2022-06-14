@@ -153,4 +153,4 @@ WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime 
 * [SecondState](https://www.secondstate.io/)
 * [Shopify](https://www.shopify.com/)
 * [SingleStore](https://www.singlestore.com/)
-* [Tetrate]
+* [Tetrate](https://www.tetrate.io/)
