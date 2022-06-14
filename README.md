@@ -10,6 +10,14 @@ WebAssembly's unique value proposition:
 * Web platform integration: ensure components can be natively supported in browsers by extending the existing WebAssembly integration points: the JS API, Web API and ESM-integration. Before native support is implemented, ensure components can be polyfilled in browsers via Ahead-of-Time compilation to currently-supported browser functionality.
 
 
+## wasmi
+
+https://github.com/paritytech/wasmi
+
+wasmi was conceived as a component of parity-ethereum (ethereum-like contracts in wasm) and substrate. These projects are related to blockchain and require a high degree of correctness. The project is not trying to be be involved in any implementation of any of work-in-progress Wasm proposals. Instead the project tries to be as close as possible to the specification, therefore avoiding features that are not directly supported by the specification.
+
+With all that said wasmi should be a good option for initial prototyping and there shouldn't be a problem migrating from wasmi to another specification compliant execution engine later on.
+
 
 ## AssemblyScript
 
