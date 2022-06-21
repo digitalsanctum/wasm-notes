@@ -120,18 +120,24 @@ wazero is a WebAssembly 1.0 spec compliant runtime written in Go. It has zero de
 Import wazero and extend your Go application with code written in any language!
 
 
-## awesome-wasm
+## mbasso/awesome-wasm
 
 https://github.com/mbasso/awesome-wasm
 
 Curated list of awesome things regarding WebAssembly (wasm) ecosystem. 
 
-## awesome-wasm-langs
+## appcypher/awesome-wasm-langs
 
 https://github.com/appcypher/awesome-wasm-langs
 
 A curated list of languages that compile directly to or have their VMs in WebAssembly 
 
+
+## byrneml/wasm-resources
+
+https://github.com/byrneml/wasm-resources
+
+Another curated list of wasm resources.
 
 ## wasmedge
 
